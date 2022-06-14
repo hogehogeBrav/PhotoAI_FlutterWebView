@@ -1,0 +1,48 @@
+*{
+  font-family: sans-serif;
+}
+
+body{
+  background-color: rgb(239, 251, 255);
+}
+
+/* selectcontainer */
+#select-container {
+  margin: 50px auto;
+  width: 80vw;
+  height: 50vw;
+  border: 1px solid #755e3c;
+  border-radius: 5px;
+  background-image: url("./../img/select-photo.svg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+  background-color: #f8f8f8;
+}
+
+#select-container label {
+  border-radius: 5px;
+  position: absolute;
+  width: 80vw;
+  height: 50vw;
+  color: #ffffff;
+  cursor: pointer;
+}
+
+#select-container label #preview {
+  border: 1px solid #755e3c;
+  border-radius: 5px;
+  width: 80vw;
+  height: 50vw;
+  -o-object-fit: cover;
+  object-fit: cover;
+}
+
+#select-container input[type="file"] {
+  display: none;
+}
+
+h2{
+  font-size: larger;
+  text-align: center;
+}
